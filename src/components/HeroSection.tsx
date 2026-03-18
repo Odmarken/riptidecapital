@@ -41,7 +41,7 @@ const HeroSection = () => {
               View Performance
             </motion.a>
             <motion.a
-              href="#program"
+              href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               className="px-8 py-4 rounded-lg glass font-display font-semibold text-foreground text-lg transition-all hover:border-primary"
