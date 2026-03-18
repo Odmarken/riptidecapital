@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Zap, LineChart, Users, Lock } from "lucide-react";
+import { Zap, LineChart, Lock } from "lucide-react";
 
 const features = [
   {
@@ -11,11 +11,6 @@ const features = [
     icon: LineChart,
     title: "Proven Track Record",
     description: "With an 81.3% win rate, our strategy has consistently delivered positive returns across various market conditions.",
-  },
-  {
-    icon: Users,
-    title: "Managed Accounts",
-    description: "Sit back while our team manages your investments. Full transparency with real-time reporting on every trade.",
   },
   {
     icon: Lock,
@@ -42,7 +37,7 @@ const ProgramSection = () => {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {features.map((feature, index) => (
             <motion.div
               key={feature.title}
