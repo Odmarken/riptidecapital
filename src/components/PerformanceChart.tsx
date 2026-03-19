@@ -2,21 +2,18 @@ import { motion } from "framer-motion";
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts";
 
 const data = [
-  { month: "Jan '24", returns: 4.2 },
-  { month: "Feb '24", returns: 6.8 },
-  { month: "Mar '24", returns: 5.1 },
-  { month: "Apr '24", returns: 8.4 },
-  { month: "May '24", returns: 7.2 },
-  { month: "Jun '24", returns: 9.6 },
-  { month: "Jul '24", returns: 6.9 },
-  { month: "Aug '24", returns: 11.3 },
-  { month: "Sep '24", returns: 8.7 },
-  { month: "Oct '24", returns: 10.5 },
-  { month: "Nov '24", returns: 12.1 },
-  { month: "Dec '24", returns: 9.8 },
-  { month: "Jan '25", returns: 7.5 },
-  { month: "Feb '25", returns: 10.2 },
-  { month: "Mar '25", returns: 11.8 },
+  { month: "Jan", returns: 4.2 },
+  { month: "Feb", returns: 6.8 },
+  { month: "Mar", returns: 5.1 },
+  { month: "Apr", returns: 8.4 },
+  { month: "May", returns: 7.2 },
+  { month: "Jun", returns: 9.6 },
+  { month: "Jul", returns: 6.9 },
+  { month: "Aug", returns: 11.3 },
+  { month: "Sep", returns: 8.7 },
+  { month: "Oct", returns: 10.5 },
+  { month: "Nov", returns: 12.1 },
+  { month: "Dec", returns: 9.8 },
 ];
 
 const tradeData = [
@@ -50,7 +47,7 @@ const PerformanceChart = () => {
             viewport={{ once: true }}
             className="lg:col-span-2 bg-gradient-card rounded-xl p-6 shadow-card border border-border/50"
           >
-            <h3 className="font-display text-xl font-semibold mb-6 text-foreground">Cumulative Returns (%)</h3>
+            <h3 className="font-display text-xl font-semibold mb-6 text-foreground">Cumulative Returns (%) 2025</h3>
             <ResponsiveContainer width="100%" height={320}>
               <AreaChart data={data}>
                 <defs>
