@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import riptideLogo from "@/assets/riptide-logo-nobg.png";
+import riptideLogo from "@/assets/riptide-logo-transparent.png";
 
 const HeroSection = () => {
   return (
