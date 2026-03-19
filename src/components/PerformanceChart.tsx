@@ -47,7 +47,7 @@ const PerformanceChart = () => {
             viewport={{ once: true }}
             className="lg:col-span-2 bg-gradient-card rounded-xl p-6 shadow-card border border-border/50"
           >
-            <h3 className="font-display text-xl font-semibold mb-6 text-foreground">Cumulative Returns (%)</h3>
+            <h3 className="font-display text-xl font-semibold mb-6 text-foreground">Cumulative Returns (%) 2025</h3>
             <ResponsiveContainer width="100%" height={320}>
               <AreaChart data={data}>
                 <defs>
